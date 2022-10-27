@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: 'Karla', sans-serif;
 }
 
 body {
@@ -9,7 +10,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #0B2434;
+  background-color: darkslategray;
   padding: 20px;
 }
 
@@ -26,7 +27,7 @@ main {
   padding: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -51,4 +52,19 @@ main {
 
 .die-number {
   font-size: 2rem;
+}
+
+.roll-dice {
+  height: 50px;
+  width: 100px;
+  border: none;
+  border-radius: 6px;
+  background-color: darkslategray;
+  color: white;
+  font-size: large;
+  margin-top: 10px;
+}
+
+.roll-dice:active {
+  box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
 }
